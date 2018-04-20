@@ -3,11 +3,13 @@ import './App.css';
 import axios from 'axios';
 
 // Dev Ship
+const ENVIRONMENT = 'DEV';
 const PORT = '10.98.0.85:4984';
 const USERNAME = 'vvdev'
 const PASSWORD = 'yellow*99'
 
 // QC Ship
+// const ENVIRONMENT = 'QC'
 // const PORT = '10.99.0.189:4984';
 // const USERNAME = 'decurtis'
 // const PASSWORD = 'pass'
@@ -103,6 +105,8 @@ class App extends Component {
           <h1 className="App-title">Caelus</h1>
         </header>
         <div style={{padding : '20px'}}>
+          <h1>Uploading to {ENVIRONMENT} environment</h1>
+          <br/>
           <label htmlFor="fileUploader" className='upload-button'>
             <input type="file" id='fileUploader' ref={this.fileUpload} onChange={this.setFileName}/>
           </label>
