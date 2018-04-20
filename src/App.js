@@ -3,14 +3,14 @@ import './App.css';
 import axios from 'axios';
 
 // Dev Ship
-// const PORT = '10.98.0.85:4984';
-// const USERNAME = 'vvdev'
-// const PASSWORD = 'yellow*99'
+const PORT = '10.98.0.85:4984';
+const USERNAME = 'vvdev'
+const PASSWORD = 'yellow*99'
 
 // QC Ship
-const PORT = '10.99.0.189:4984';
-const USERNAME = 'decurtis'
-const PASSWORD = 'pass'
+// const PORT = '10.99.0.189:4984';
+// const USERNAME = 'decurtis'
+// const PASSWORD = 'pass'
 
 const PROTOCOL = 'http';
 const BUCKET_NAME = 'sailorframework'
