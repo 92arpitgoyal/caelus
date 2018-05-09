@@ -2,17 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 
-// Dev Ship
-const ENVIRONMENT = 'DEV';
-const PORT = '10.98.0.85:4984';
-const USERNAME = 'vvdev'
-const PASSWORD = 'yellow*99'
-
-// QC Ship
-// const ENVIRONMENT = 'QC'
-// const PORT = '10.99.0.189:4984';
-// const USERNAME = 'decurtis'
-// const PASSWORD = 'pass'
+import {
+  ENVIRONMENT,
+  PORT,
+  USERNAME,
+  PASSWORD
+} from './Environment'
 
 const PROTOCOL = 'http';
 const BUCKET_NAME = 'sailorframework'
