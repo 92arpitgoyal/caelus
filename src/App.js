@@ -4,12 +4,12 @@ import axios from 'axios';
 
 import {
   ENVIRONMENT,
+  PROTOCOL,
   PORT,
   USERNAME,
   PASSWORD
 } from './Environment'
 
-const PROTOCOL = 'http';
 const BUCKET_NAME = 'sailorframework'
 const BASE_URL = `${PROTOCOL}://${PORT}/${BUCKET_NAME}/SailorFrameworkHTMLModule`;
 
