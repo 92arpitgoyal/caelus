@@ -5,13 +5,13 @@ import axios from 'axios';
 import {
   ENVIRONMENT,
   PROTOCOL,
-  PORT,
+  BASE,
   USERNAME,
-  PASSWORD
+  PASSWORD,
+  BUCKET_NAME
 } from './Environment'
 
-const BUCKET_NAME = 'sailorframework'
-const BASE_URL = `${PROTOCOL}://${PORT}/${BUCKET_NAME}/SailorFrameworkHTMLModule`;
+const BASE_URL = `${PROTOCOL}://${BASE}/${BUCKET_NAME}/SailorFrameworkHTMLModule`;
 
 class App extends Component {
   constructor(props) {
