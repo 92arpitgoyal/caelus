@@ -1,0 +1,11 @@
+/***** VV Dev *****/
+https://vvship.d-aws-vxp.com/dev-syncgateway/appdocstorenew_v1/SailorFrameworkHTMLModule::SFW
+https://vvshore-dev.d-aws-vxp.com/syncgateway/appdocstorenew_v1/SailorFrameworkHTMLModule::SFW
+
+/***** VV QC *****/
+https://vvship.d-aws-vxp.com/integration-syncgateway/appdocstorenew_v1/SailorFrameworkHTMLModule::SFW
+https://vvshore-integration.d-aws-vxp.com/syncgateway/appdocstorenew_v1/SailorFrameworkHTMLModule::SFW
+
+/***** DXP Demo *****/
+https://dxpship.decurtiscorp.com/syncgateway/prodappdocstore/SailorFrameworkHTMLModule::SFW
+https://dxpshore.decurtiscorp.com/syncgateway/prodappdocstore/SailorFrameworkHTMLModule::SFW
