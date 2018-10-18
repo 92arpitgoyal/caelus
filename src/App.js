@@ -11,7 +11,7 @@ import {
   BUCKET_NAME
 } from './Environment'
 
-const BASE_URL = `${PROTOCOL}://${BASE}/${BUCKET_NAME}/SailorFrameworkHTMLModule`;
+const BASE_URL = `${PROTOCOL}://${BASE}/${BUCKET_NAME}/MobileFrameworkHTMLModule`;
 
 class App extends Component {
   constructor(props) {
